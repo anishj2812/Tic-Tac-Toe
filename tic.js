@@ -14,6 +14,7 @@ for(let i=1;i<=3;i++)
                 if(pos.innerHTML.length==0)
                 {
                     pos.innerHTML='O';
+                    pos.style.color='green';
                     arr[i][j]=1;
                     n=n^1;
                 }
@@ -23,6 +24,7 @@ for(let i=1;i<=3;i++)
                 if(pos.innerHTML.length==0)
                 {
                     pos.innerHTML='X';
+                    pos.style.color='blue';
                     arr[i][j]=2;
                     n=n^1;  
                 }
