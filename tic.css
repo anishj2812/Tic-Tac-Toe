@@ -1,17 +1,19 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: black;
+    font-family:cursive;
 }
 td{
-    border: 2px solid black;
+    border: 2px solid white;
     height: 100px;
     width: 100px;
     text-align: center;
-    font-size: xx-large;
+    font-size:70px;
 }
-td:hover{
+/* td:hover{
     background-color: rgb(114, 106, 106);
-}
+} */
 body{
     height: 100vh;
     width:100vw;
@@ -36,17 +38,18 @@ body{
     display:flex;
     align-items: center;
     justify-content:center;
+    color: white;
 }
-#contain{
-    font-size: xx-large;
-    margin: 10px;
-}
+
 #button{
     /* display: block;
     position: relative;
     left: 640px;
     top:210px; */
     font-size: large;
+    border: 2px solid white;
+    /* color: white; */
+    background-color: white;
 }
 table{
     /* display:block;
@@ -62,4 +65,9 @@ table{
     width:100vw; */
     justify-content:center;
     /* right:100%; */
+}
+#contain{
+    font-size: xx-large;
+    margin: 10px;
+    color: white
 }
